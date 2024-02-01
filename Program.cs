@@ -8,6 +8,12 @@ namespace ConsoleApp13
 {
     public class Program
     {
+
+        // This is not an Exact Age Calculating Program, But it will give Approximate days.
+        // It will exactly show the total number of days that you have lived.
+        // Result may variy depends upon the month calculation.
+        //It will give +6 or -6 days in the result.
+
         static void Main(string[] args)
         {
             int Birthdate = 5;
@@ -53,7 +59,7 @@ namespace ConsoleApp13
             int months = remainingDays / 30; 
             int days = remainingDays % 30;
 
-            Console.WriteLine(ageInYears + " years " + months + " months " + (days-6) + " days");
+            Console.WriteLine(ageInYears + " years " + months + " months " + (days) + " days");
         }
     }
 }
